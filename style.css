@@ -14,15 +14,17 @@ body {
 
 /* NAVBAR */
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     padding: 15px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.95), rgba(0,0,0,0.7));
     z-index: 100;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .logo {
@@ -67,11 +69,11 @@ body {
 
 /* HERO */
 .banner {
-    height: 100vh;
+    min-height: 100vh;
     background: url('https://wallpaperaccess.com/full/2703652.png') center/cover;
     display: flex;
     align-items: center;
-    padding-left: 60px;
+    padding: 120px 60px 60px;
     position: relative;
 }
 
